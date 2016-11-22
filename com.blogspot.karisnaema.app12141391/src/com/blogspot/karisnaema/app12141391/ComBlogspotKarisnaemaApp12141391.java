@@ -99,9 +99,7 @@ public class ComBlogspotKarisnaemaApp12141391 {
                             PiLevel++; // Level bertambah setelah input Next Level
                         }
                     
-                        
-                    }
-                    
+
                 }while(!"exit".equals(nextLevel));
                 // ------------------- END OF SCRIPT GAME TEBAK
                 
