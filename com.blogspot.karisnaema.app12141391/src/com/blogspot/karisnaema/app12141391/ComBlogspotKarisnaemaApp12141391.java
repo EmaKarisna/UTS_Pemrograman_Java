@@ -31,7 +31,14 @@ public class ComBlogspotKarisnaemaApp12141391 {
                 System.out.println("Selamat Datang " + cariY); // Untuk memberikan sambutan kepada Pemain
                 
                 do{
+                    int Kout, Ang, Pang;
+                    System.out.println("# Level " + PiLevel);
+                    int StarNilaiO=PiLevel-1;    
+                    Pang=PiLevel*100; // Menaikan Nilai dan Angka Random pada tiap level
+                    System.out.println("Silahkan Tebak Antara 1 s/d " + Pang);
+                    
                 }while(!"exit".equals(nextLevel));
+                // ------------------- END OF SCRIPT GAME TEBAK
                 
             }// Stop Looping Nama Pemain
             
