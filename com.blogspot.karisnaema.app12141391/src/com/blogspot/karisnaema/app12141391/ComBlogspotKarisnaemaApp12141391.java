@@ -36,6 +36,16 @@ public class ComBlogspotKarisnaemaApp12141391 {
                     int StarNilaiO=PiLevel-1;    
                     Pang=PiLevel*100; // Menaikan Nilai dan Angka Random pada tiap level
                     System.out.println("Silahkan Tebak Antara 1 s/d " + Pang);
+                    System.out.println("Anda mempunyai kesempatan menebak 5 kali.");
+                    int AngKaAcak=angkaRandom.nextInt(Pang); // Mulai mengacak Nomor
+                    // Mulai Looping 5 kali kesempatan. disni malah 6 kali, karena yg ke 6 untuk memberikan variabel GameOver
+                    
+                    for(Kout=0;Kout<=5;Kout++){
+                        if(Kout==5){ // Jika Loop ke 6, maka dipastikan GameOver
+                            System.out.println("GAMEOVER! Anda Gagal");
+                            CekGameOver++; // Memberikan nilai ++ (1), untuk memunculkan game Over
+                        }
+                    }
                     
                 }while(!"exit".equals(nextLevel));
                 // ------------------- END OF SCRIPT GAME TEBAK
