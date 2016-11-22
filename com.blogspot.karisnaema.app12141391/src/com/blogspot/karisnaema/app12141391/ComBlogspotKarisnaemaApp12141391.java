@@ -45,6 +45,15 @@ public class ComBlogspotKarisnaemaApp12141391 {
                             System.out.println("GAMEOVER! Anda Gagal");
                             CekGameOver++; // Memberikan nilai ++ (1), untuk memunculkan game Over
                         }
+                        else{  
+                            System.out.println("Tebakan Anda ? " );
+                            int AkuTeb=input2.nextInt(); // Menginput Tebakan
+                            int Kurang=4-Kout;
+                            if(AkuTeb==AngKaAcak){ // JIka inputan dan random sama
+                            }
+                        }
+                        
+                        
                     }
                     
                 }while(!"exit".equals(nextLevel));
