@@ -19,6 +19,12 @@ public class ComBlogspotKarisnaemaApp12141391 {
           }while(!"y".equals(cariY)); // Jika diiputkan y, maka akan keluar
         
         int jumPemain=namaPemain.size(); // Mengambil jumlah Rercord dalam array, dan untuk menghilangkan y paling belakang pada loop dikurangi 1 (-1)
+        System.out.println("SCORE AKHIR");
+        System.out.println("=================================");
+        int l;
+        for(l=0;l<jumPemain-1;l++){
+        System.out.println(namaPemain.get(l) + " : " + sekorPermainan.get(l)); // Menampilkan Skore di Akhir permainan
+        }
     }
     
 }
