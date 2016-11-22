@@ -12,7 +12,13 @@ public class ComBlogspotKarisnaemaApp12141391 {
         Scanner input = new Scanner(System.in); // Input pertama
         Scanner input2= new Scanner(System.in); // Input kedua
         Random angkaRandom=new Random(); // Mengacak angka
-        String cariY; // Untuk mencari nilai Y, jika input y, maka otomatis akan keluar
+        String cariY = null; // Untuk mencari nilai Y, jika input y, maka otomatis akan keluar
+        
+        do{
+            
+          }while(!"y".equals(cariY)); // Jika diiputkan y, maka akan keluar
+        
+        int jumPemain=namaPemain.size(); // Mengambil jumlah Rercord dalam array, dan untuk menghilangkan y paling belakang pada loop dikurangi 1 (-1)
     }
     
 }
