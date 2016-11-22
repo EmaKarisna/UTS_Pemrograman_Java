@@ -52,19 +52,19 @@ public class ComBlogspotKarisnaemaApp12141391 {
                             if(AkuTeb==AngKaAcak){ // JIka inputan dan random sama
                                 // Penilaian. Memberikan nilai ketika berhasil menebak, dikalikan dengan Level
                                 if(Kout==0){
-                                    
+                                    NilaiPasJalan=PiLevel*100; // 1 x tebak, level x kan 100
                                 }
                                 else if(Kout==1){
-                                   
+                                    NilaiPasJalan=PiLevel*70; // 2 x tebak, level x kan 70
                                 }
                                 else if(Kout==2){
-                                    
+                                    NilaiPasJalan=PiLevel*50; // 3 x tebak, level x kan 50
                                 }
                                 else if(Kout==3){
-                                   
+                                    NilaiPasJalan=PiLevel*30; // 4 x tebak, level x kan 30
                                 }
                                 else{
-                                    
+                                    NilaiPasJalan=0; // 5 x tebak, level x kan 0
                                 }
                                 // Memberikan informasi tebakan keberapa yang telah berhasil
                             }
