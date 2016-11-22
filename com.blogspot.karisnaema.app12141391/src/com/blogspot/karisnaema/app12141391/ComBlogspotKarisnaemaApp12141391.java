@@ -67,6 +67,19 @@ public class ComBlogspotKarisnaemaApp12141391 {
                                     NilaiPasJalan=0; // 5 x tebak, level x kan 0
                                 }
                                 // Memberikan informasi tebakan keberapa yang telah berhasil
+                                int NeTebak=Kout+1;
+                                // Konfirmasi Tebakan Berhasil :)
+                                System.out.println("Selamat Anda berhasil menebak Angka dalam " + NeTebak + " kali tebakan. Sekor anda adalah " + NilaiPasJalan);
+                                break;
+                            }
+                            else{
+                                if(AkuTeb>AngKaAcak){
+                                    System.out.println("Tebakan Anda terlalu Besar! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); // Jika Tebakan lebih besar dari angka random
+                                }
+                                else{
+                                    System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); // Jika tebakan lebih kecil dari angka random
+                                }
+                            }
                             }
                         }
                         
