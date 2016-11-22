@@ -93,7 +93,10 @@ public class ComBlogspotKarisnaemaApp12141391 {
                              break;
                         }
                         else{
-                           
+                            aKumulasi[StarNilaiO]=NilaiPasJalan; // Membuat Array Nilai   
+                            System.out.println("Ketik 'next' dan tekan enter untuk lanjut ke Level berikutnya atau ketik 'exit' untuk keluar : ");
+                            nextLevel=input.nextLine(); // inputan next level atau exit
+                            PiLevel++; // Level bertambah setelah input Next Level
                         }
                     
                         
