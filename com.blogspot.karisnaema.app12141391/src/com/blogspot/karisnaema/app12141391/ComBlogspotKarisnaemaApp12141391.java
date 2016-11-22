@@ -25,7 +25,14 @@ public class ComBlogspotKarisnaemaApp12141391 {
          
             // START GAME
             if(!("y").equals(cariY)){  
-            
+                // ======================SCRIPT PENEBAKAN====================   
+                String nextLevel = null; // untuk Menaikkan Level
+                int PiLevel=1;   // Untuk menentukan Level Pertama
+                System.out.println("Selamat Datang " + cariY); // Untuk memberikan sambutan kepada Pemain
+                
+                do{
+                }while(!"exit".equals(nextLevel));
+                
             }// Stop Looping Nama Pemain
             
             // NGOLAH NILAI
