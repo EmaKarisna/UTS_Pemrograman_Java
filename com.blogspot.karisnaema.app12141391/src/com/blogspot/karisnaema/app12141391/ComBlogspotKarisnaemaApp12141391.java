@@ -50,6 +50,23 @@ public class ComBlogspotKarisnaemaApp12141391 {
                             int AkuTeb=input2.nextInt(); // Menginput Tebakan
                             int Kurang=4-Kout;
                             if(AkuTeb==AngKaAcak){ // JIka inputan dan random sama
+                                // Penilaian. Memberikan nilai ketika berhasil menebak, dikalikan dengan Level
+                                if(Kout==0){
+                                    
+                                }
+                                else if(Kout==1){
+                                   
+                                }
+                                else if(Kout==2){
+                                    
+                                }
+                                else if(Kout==3){
+                                   
+                                }
+                                else{
+                                    
+                                }
+                                // Memberikan informasi tebakan keberapa yang telah berhasil
                             }
                         }
                         
