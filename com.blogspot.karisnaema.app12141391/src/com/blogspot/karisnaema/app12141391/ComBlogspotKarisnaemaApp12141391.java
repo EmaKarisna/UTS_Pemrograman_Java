@@ -20,6 +20,20 @@ public class ComBlogspotKarisnaemaApp12141391 {
             namaPemain.add(cariY);
             int NilaiJalan = 0; // Variabel nilai 
             int CekGameOver=0; // Cek Game over. bernilai 1 jika GameOver
+            int aKumulasi[]= new int[6]; // Membuat array nilai tiap level permainan
+            int NilaiPasJalan=0; // Varibel nilai
+         
+            // START GAME
+            if(!("y").equals(cariY)){  
+            
+            }// Stop Looping Nama Pemain
+            
+            // NGOLAH NILAI
+            for(int rO=0; rO<5; rO++){ // membuat array nilai pada tiap level, untuk kemudian dijumlahkan
+                NilaiJalan=NilaiJalan+aKumulasi[rO];  
+            }
+            sekorPermainan.add(NilaiJalan); // Menambahkan Nilai Akhir pada masing masing peserta
+            // SCORE SEMENTARA
             
           }while(!"y".equals(cariY)); // Jika diiputkan y, maka akan keluar
         
