@@ -80,9 +80,22 @@ public class ComBlogspotKarisnaemaApp12141391 {
                                     System.out.println("Tebakan Anda terlalu Kecil! Anda mempunyai kesempatan " + Kurang + " kali lagi" ); // Jika tebakan lebih kecil dari angka random
                                 }
                             }
+                            
                             }
                         }
-                        
+                        // Jika GameOver, game over dideteksi dari looping ke-6 yang tidak memunculkan input
+                        // jawaban, tetapi langsung memberikan nilai ke CekGameOver,
+                        if(CekGameOver>0){
+                            break;
+                        }
+                        // Level 5 adalah Level Maksimal
+                        if(PiLevel==5){ // Jika sudah Mencapai Level 5, langsung di break/otomatis Exit
+                             break;
+                        }
+                        else{
+                           
+                        }
+                    
                         
                     }
                     
