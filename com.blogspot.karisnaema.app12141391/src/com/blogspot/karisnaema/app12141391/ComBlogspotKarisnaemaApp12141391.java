@@ -15,6 +15,11 @@ public class ComBlogspotKarisnaemaApp12141391 {
         String cariY = null; // Untuk mencari nilai Y, jika input y, maka otomatis akan keluar
         
         do{
+            System.out.println("Masukkan 'Nama' anda atau tekan 'y' untuk keluar, kemudian tekan enter = ");
+            cariY=input.nextLine();
+            namaPemain.add(cariY);
+            int NilaiJalan = 0; // Variabel nilai 
+            int CekGameOver=0; // Cek Game over. bernilai 1 jika GameOver
             
           }while(!"y".equals(cariY)); // Jika diiputkan y, maka akan keluar
         
